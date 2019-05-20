@@ -1,0 +1,38 @@
+{
+  "name": "newclient",
+  "version": "1.0.0",
+  "description": "new client",
+  "main": "index.js",
+  "scripts": {
+    "d": "webpack-dev-server --mode development ",
+    "p": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.21.0",
+    "vue-loader": "^15.2.7",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "greensock": "^1.20.2",
+    "vue": "^2.5.16",
+    "vue-nav-tabs": "^0.5.7",
+    "vue-perfect-scrollbar": "^0.1.0",
+    "vuelidate": "^0.7.4"
+  }
+}
